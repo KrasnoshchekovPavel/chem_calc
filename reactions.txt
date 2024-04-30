@@ -1,0 +1,7830 @@
+{
+    "Carpetium": {
+        "id": "Carpetium",
+        "name": "",
+        "reactants": {
+            "SpaceDrugs": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Fiber": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Carpetium": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "WeldingFuelBreakdown": {
+        "id": "WeldingFuelBreakdown",
+        "name": "",
+        "reactants": {
+            "WeldingFuel": {
+                "amount": 10,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Ethanol": 5,
+            "Hydrogen": 3,
+            "Sulfur": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "центрифугирование",
+                "id": "Centrifuge"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "BicarBruizine": {
+        "id": "BicarBruizine",
+        "name": "",
+        "reactants": {
+            "Bruizine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Bicaridine": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Razorium": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "EthanolBreakdown": {
+        "id": "EthanolBreakdown",
+        "name": "",
+        "reactants": {
+            "Ethanol": {
+                "amount": 9,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Hydrogen": 6,
+            "Carbon": 2,
+            "Oxygen": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "электролиз",
+                "id": "Electrolysis"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Meatification": {
+        "id": "Meatification",
+        "name": "",
+        "reactants": {
+            "Fat": {
+                "amount": 25,
+                "catalyst": false
+            },
+            "Nutriment": {
+                "amount": 5,
+                "catalyst": false
+            },
+            "Blood": {
+                "amount": 10,
+                "catalyst": false
+            },
+            "Carbon": {
+                "amount": 10,
+                "catalyst": false
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "CreateEntityReactionEffect",
+                "description": "Создаёт сырое мясо."
+            }
+        ]
+    },
+    "CafeLatte": {
+        "id": "CafeLatte",
+        "name": "",
+        "reactants": {
+            "Coffee": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Milk": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "CafeLatte": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "VitaminBreakdown": {
+        "id": "VitaminBreakdown",
+        "name": "",
+        "reactants": {
+            "Vitamin": {
+                "amount": 4,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Carbon": 1,
+            "Water": 1,
+            "Nitrogen": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "центрифугирование",
+                "id": "Centrifuge"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Ammonia": {
+        "id": "Ammonia",
+        "name": "",
+        "reactants": {
+            "Hydrogen": {
+                "amount": 3,
+                "catalyst": false
+            },
+            "Nitrogen": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Ammonia": 4
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "BlueHawaiian": {
+        "id": "BlueHawaiian",
+        "name": "",
+        "reactants": {
+            "CoconutRum": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "JuicePineapple": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceLemon": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "BlueCuracao": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "BlueHawaiian": 5
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Lacerinol": {
+        "id": "Lacerinol",
+        "name": "",
+        "reactants": {
+            "Bicaridine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Benzene": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Lacerinol": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 335,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "AluminiumMetalFoam": {
+        "id": "AluminiumMetalFoam",
+        "name": "",
+        "reactants": {
+            "Aluminium": {
+                "amount": 3,
+                "catalyst": false
+            },
+            "FoamingAgent": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "FluorosulfuricAcid": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "AreaReactionEffect",
+                "description": "вызывают неизвестный эффект, так как никто ещё не написал об этом эффекте."
+            }
+        ]
+    },
+    "Martini": {
+        "id": "Martini",
+        "name": "",
+        "reactants": {
+            "Gin": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Vermouth": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Martini": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "RedMead": {
+        "id": "RedMead",
+        "name": "",
+        "reactants": {
+            "Mead": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Blood": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "RedMead": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Alexander": {
+        "id": "Alexander",
+        "name": "",
+        "reactants": {
+            "Cognac": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Coffee": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Cream": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Alexander": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Tazinide": {
+        "id": "Tazinide",
+        "name": "",
+        "reactants": {
+            "Licoxide": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Vestine": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Tazinide": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "WhiteRussian": {
+        "id": "WhiteRussian",
+        "name": "",
+        "reactants": {
+            "BlackRussian": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Cream": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "WhiteRussian": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Moonshine": {
+        "id": "Moonshine",
+        "name": "",
+        "reactants": {
+            "Tequila": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Vodka": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Whiskey": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Moonshine": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Inaprovaline": {
+        "id": "Inaprovaline",
+        "name": "",
+        "reactants": {
+            "Oxygen": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Carbon": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Inaprovaline": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Acetone": {
+        "id": "Acetone",
+        "name": "",
+        "reactants": {
+            "Oil": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "WeldingFuel": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Oxygen": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Acetone": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Charcoal": {
+        "id": "Charcoal",
+        "name": "",
+        "reactants": {
+            "Carbon": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Ash": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Charcoal": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CookingMayoLemon": {
+        "id": "CookingMayoLemon",
+        "name": "",
+        "reactants": {
+            "JuiceLemon": {
+                "amount": 5,
+                "catalyst": false
+            },
+            "Oil": {
+                "amount": 5,
+                "catalyst": false
+            },
+            "Egg": {
+                "amount": 6,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Mayo": 15
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "ToxinsSpecial": {
+        "id": "ToxinsSpecial",
+        "name": "",
+        "reactants": {
+            "Rum": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Vermouth": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Plasma": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "ToxinsSpecial": 5
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Ethyloxyephedrine": {
+        "id": "Ethyloxyephedrine",
+        "name": "",
+        "reactants": {
+            "Desoxyephedrine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Stellibinin": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Ethyloxyephedrine": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Hydroxide": {
+        "id": "Hydroxide",
+        "name": "",
+        "reactants": {
+            "Oxygen": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Hydrogen": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Hydroxide": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 310,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "EspressoMartini": {
+        "id": "EspressoMartini",
+        "name": "",
+        "reactants": {
+            "BlackRussian": {
+                "amount": 6,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Coffee": {
+                "amount": 3,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "EspressoMartini": 10
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Kelotane": {
+        "id": "Kelotane",
+        "name": "",
+        "reactants": {
+            "Silicon": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Carbon": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Kelotane": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Insuzine": {
+        "id": "Insuzine",
+        "name": "",
+        "reactants": {
+            "Leporazine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Kelotane": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Silicon": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Insuzine": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 433,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CreateTortillaDough": {
+        "id": "CreateTortillaDough",
+        "name": "",
+        "reactants": {
+            "Cornmeal": {
+                "amount": 15,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 10,
+                "catalyst": false
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "CreateEntityReactionEffect",
+                "description": "Создаёт тесто тортильи."
+            }
+        ]
+    },
+    "Napalm": {
+        "id": "Napalm",
+        "name": "",
+        "reactants": {
+            "Oil": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "WeldingFuel": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Ethanol": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Napalm": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CreateVeganCakeBatter": {
+        "id": "CreateVeganCakeBatter",
+        "name": "",
+        "reactants": {
+            "Flour": {
+                "amount": 15,
+                "catalyst": false
+            },
+            "MilkSoy": {
+                "amount": 15,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 5,
+                "catalyst": false
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "CreateEntityReactionEffect",
+                "description": "Создаёт тесто для торта."
+            }
+        ]
+    },
+    "Psicodine": {
+        "id": "Psicodine",
+        "name": "",
+        "reactants": {
+            "Mannitol": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Impedrezene": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Psicodine": 4
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Puncturase": {
+        "id": "Puncturase",
+        "name": "",
+        "reactants": {
+            "Bicaridine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Hydroxide": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Puncturase": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 325,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CookingKetchup": {
+        "id": "CookingKetchup",
+        "name": "",
+        "reactants": {
+            "JuiceTomato": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Ketchup": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Smoke": {
+        "id": "Smoke",
+        "name": "",
+        "reactants": {
+            "Phosphorus": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Potassium": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "AreaReactionEffect",
+                "description": "вызывают неизвестный эффект, так как никто ещё не написал об этом эффекте."
+            }
+        ]
+    },
+    "Benzene": {
+        "id": "Benzene",
+        "name": "",
+        "reactants": {
+            "Hydrogen": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Carbon": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Benzene": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 310,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Oil": {
+        "id": "Oil",
+        "name": "",
+        "reactants": {
+            "WeldingFuel": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Hydrogen": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Carbon": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Oil": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "DevilsKiss": {
+        "id": "DevilsKiss",
+        "name": "",
+        "reactants": {
+            "Rum": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Blood": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "CoffeeLiqueur": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "DevilsKiss": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CarbonDioxideBreakdown": {
+        "id": "CarbonDioxideBreakdown",
+        "name": "",
+        "reactants": {
+            "CarbonDioxide": {
+                "amount": 3,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Carbon": 1,
+            "Oxygen": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "электролиз",
+                "id": "Electrolysis"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Pyrazine": {
+        "id": "Pyrazine",
+        "name": "",
+        "reactants": {
+            "Leporazine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Dermaline": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Carbon": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Pyrazine": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 540,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Leporazine": {
+        "id": "Leporazine",
+        "name": "",
+        "reactants": {
+            "Copper": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Fersilicite": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Plasma": {
+                "amount": 1,
+                "catalyst": true
+            }
+        },
+        "products": {
+            "Leporazine": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CelluloseBreakdown": {
+        "id": "CelluloseBreakdown",
+        "name": "",
+        "reactants": {
+            "Cellulose": {
+                "amount": 3,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Sugar": 2,
+            "Carbon": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "электролиз",
+                "id": "Electrolysis"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Tricordrazine": {
+        "id": "Tricordrazine",
+        "name": "",
+        "reactants": {
+            "Inaprovaline": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Dylovene": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Tricordrazine": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Grog": {
+        "id": "Grog",
+        "name": "",
+        "reactants": {
+            "Rum": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Grog": 4
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Daiquiri": {
+        "id": "Daiquiri",
+        "name": "",
+        "reactants": {
+            "Rum": {
+                "amount": 4,
+                "catalyst": false
+            },
+            "JuiceLime": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Daiquiri": 6
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "GinTonic": {
+        "id": "GinTonic",
+        "name": "",
+        "reactants": {
+            "Gin": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "TonicWater": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "GinTonic": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Diethylamine": {
+        "id": "Diethylamine",
+        "name": "",
+        "reactants": {
+            "Ammonia": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Ethanol": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Diethylamine": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "ChlorineTrifluoride": {
+        "id": "ChlorineTrifluoride",
+        "name": "",
+        "reactants": {
+            "Chlorine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Fluorine": {
+                "amount": 3,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "ChlorineTrifluoride": 4
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 370,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "ExplosionReactionEffect",
+                "description": "Вызывает взрыв."
+            },
+            {
+                "id": "PopupMessage",
+                "description": ""
+            }
+        ]
+    },
+    "Cryoxadone": {
+        "id": "Cryoxadone",
+        "name": "",
+        "reactants": {
+            "Dexalin": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Oxygen": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Cryoxadone": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Ephedrine": {
+        "id": "Ephedrine",
+        "name": "",
+        "reactants": {
+            "Oil": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Hydrogen": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Diethylamine": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Ephedrine": 4
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Lemonade": {
+        "id": "Lemonade",
+        "name": "",
+        "reactants": {
+            "JuiceLemon": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Lemonade": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Stimulants": {
+        "id": "Stimulants",
+        "name": "",
+        "reactants": {
+            "Ephedrine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Vestine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Oxygen": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Stimulants": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 370,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "MaiTai": {
+        "id": "MaiTai",
+        "name": "",
+        "reactants": {
+            "Rum": {
+                "amount": 3,
+                "catalyst": false
+            },
+            "JuiceLime": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceOrange": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Ice": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "MaiTai": 6
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Barefoot": {
+        "id": "Barefoot",
+        "name": "",
+        "reactants": {
+            "Cream": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Vermouth": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceBerry": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Barefoot": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "TableSaltBreakdown": {
+        "id": "TableSaltBreakdown",
+        "name": "",
+        "reactants": {
+            "TableSalt": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Chlorine": 1,
+            "Sodium": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "электролиз",
+                "id": "Electrolysis"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CookingVinaigrette": {
+        "id": "CookingVinaigrette",
+        "name": "",
+        "reactants": {
+            "Vinegar": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "OilOlive": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Blackpepper": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Vinaigrette": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Nocturine": {
+        "id": "Nocturine",
+        "name": "",
+        "reactants": {
+            "Impedrezene": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Vestine": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Nocturine": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "HotRamen": {
+        "id": "HotRamen",
+        "name": "",
+        "reactants": {
+            "DryRamen": {
+                "amount": 5,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "HotRamen": 6
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 323.15,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CreateDough": {
+        "id": "CreateDough",
+        "name": "",
+        "reactants": {
+            "Flour": {
+                "amount": 15,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 10,
+                "catalyst": false
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "CreateEntityReactionEffect",
+                "description": "Создаёт тесто."
+            }
+        ]
+    },
+    "Doxarubixadone": {
+        "id": "Doxarubixadone",
+        "name": "",
+        "reactants": {
+            "Cryoxadone": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "UnstableMutagen": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Doxarubixadone": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "SlimeBloodBreakdown": {
+        "id": "SlimeBloodBreakdown",
+        "name": "",
+        "reactants": {
+            "Slime": {
+                "amount": 5,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Water": 4,
+            "Nitrogen": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "центрифугирование",
+                "id": "Centrifuge"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "FluorosulfuricAcid": {
+        "id": "FluorosulfuricAcid",
+        "name": "",
+        "reactants": {
+            "Fluorine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Hydrogen": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Potassium": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "SulfuricAcid": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "FluorosulfuricAcid": 4
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Left4Zed": {
+        "id": "Left4Zed",
+        "name": "",
+        "reactants": {
+            "EZNutrient": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Radium": {
+                "amount": 1,
+                "catalyst": true
+            }
+        },
+        "products": {
+            "Left4Zed": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CookingVinegar": {
+        "id": "CookingVinegar",
+        "name": "",
+        "reactants": {
+            "Ethanol": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Oxygen": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Vinegar": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Fluorosurfactant": {
+        "id": "Fluorosurfactant",
+        "name": "",
+        "reactants": {
+            "Carbon": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Fluorine": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "SulfuricAcid": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Fluorosurfactant": 5
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Thermite": {
+        "id": "Thermite",
+        "name": "",
+        "reactants": {
+            "Iron": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Aluminium": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Oxygen": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Thermite": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "FatBreakdown": {
+        "id": "FatBreakdown",
+        "name": "",
+        "reactants": {
+            "Fat": {
+                "amount": 15,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Carbon": 5,
+            "Hydrogen": 10,
+            "Oxygen": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "электролиз",
+                "id": "Electrolysis"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Pilk": {
+        "id": "Pilk",
+        "name": "",
+        "reactants": {
+            "Cola": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Milk": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Pilk": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "DemonsBlood": {
+        "id": "DemonsBlood",
+        "name": "",
+        "reactants": {
+            "Rum": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Blood": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "DrGibb": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "SpaceMountainWind": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "DemonsBlood": 4
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "RootBeerFloat": {
+        "id": "RootBeerFloat",
+        "name": "",
+        "reactants": {
+            "RootBeer": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "IceCream": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "RootBeerFloat": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "TequilaSunrise": {
+        "id": "TequilaSunrise",
+        "name": "",
+        "reactants": {
+            "JuiceOrange": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Tequila": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "TequilaSunrise": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "WhiskeySoda": {
+        "id": "WhiskeySoda",
+        "name": "",
+        "reactants": {
+            "SodaWater": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Whiskey": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "WhiskeySoda": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Ultravasculine": {
+        "id": "Ultravasculine",
+        "name": "",
+        "reactants": {
+            "Histamine": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Plasma": {
+                "amount": 1,
+                "catalyst": true
+            }
+        },
+        "products": {
+            "Ultravasculine": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Pax": {
+        "id": "Pax",
+        "name": "",
+        "reactants": {
+            "MindbreakerToxin": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Synaptizine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Pax": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Posca": {
+        "id": "Posca",
+        "name": "",
+        "reactants": {
+            "TableSalt": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Vinegar": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Posca": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "IceCream": {
+        "id": "IceCream",
+        "name": "",
+        "reactants": {
+            "Cream": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Ice": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "IceCream": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "ArnoldPalmer": {
+        "id": "ArnoldPalmer",
+        "name": "",
+        "reactants": {
+            "IcedTea": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Lemonade": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "ArnoldPalmer": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "PuncturaseLacerinol": {
+        "id": "PuncturaseLacerinol",
+        "name": "",
+        "reactants": {
+            "Lacerinol": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Puncturase": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Razorium": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "KiraSpecial": {
+        "id": "KiraSpecial",
+        "name": "",
+        "reactants": {
+            "JuiceLime": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceOrange": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "SodaWater": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "KiraSpecial": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "MojitoAlt": {
+        "id": "MojitoAlt",
+        "name": "",
+        "reactants": {
+            "Daiquiri": {
+                "amount": 6,
+                "catalyst": false
+            },
+            "JuiceLime": {
+                "amount": 3,
+                "catalyst": false
+            },
+            "SodaWater": {
+                "amount": 4,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 3,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Mojito": 16
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "PinaColada": {
+        "id": "PinaColada",
+        "name": "",
+        "reactants": {
+            "JuicePineapple": {
+                "amount": 3,
+                "catalyst": false
+            },
+            "JuiceLime": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Rum": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "CreamOfCoconut": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "PinaColada": 6
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Cola": {
+        "id": "Cola",
+        "name": "",
+        "reactants": {
+            "Ipecac": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Oxygen": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Cola": 4
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Cryptobiolin": {
+        "id": "Cryptobiolin",
+        "name": "",
+        "reactants": {
+            "Potassium": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Oxygen": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Cryptobiolin": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CubaLibre": {
+        "id": "CubaLibre",
+        "name": "",
+        "reactants": {
+            "Cola": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Rum": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "CubaLibre": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "ShirleyTemple": {
+        "id": "ShirleyTemple",
+        "name": "",
+        "reactants": {
+            "SolDry": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Grenadine": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "ShirleyTemple": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Bruizine": {
+        "id": "Bruizine",
+        "name": "",
+        "reactants": {
+            "Bicaridine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Lithium": {
+                "amount": 0.9,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Bruizine": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "BananaHonk": {
+        "id": "BananaHonk",
+        "name": "",
+        "reactants": {
+            "Cream": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceBanana": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "BananaHonk": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "BeepskySmash": {
+        "id": "BeepskySmash",
+        "name": "",
+        "reactants": {
+            "Iron": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceLime": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Whiskey": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "BeepskySmash": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "TranexamicAcid": {
+        "id": "TranexamicAcid",
+        "name": "",
+        "reactants": {
+            "Inaprovaline": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "SulfuricAcid": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "TranexamicAcid": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "SapBoiling": {
+        "id": "SapBoiling",
+        "name": "",
+        "reactants": {
+            "Sap": {
+                "amount": 1.2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Syrup": 0.1
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 377,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "CreateGas",
+                "description": "Создаёт 3 моль газа gases-water-vapor."
+            }
+        ]
+    },
+    "OilBreakdown": {
+        "id": "OilBreakdown",
+        "name": "",
+        "reactants": {
+            "Oil": {
+                "amount": 10,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Fat": 6,
+            "Water": 3,
+            "Protein": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "центрифугирование",
+                "id": "Centrifuge"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Diphenhydramine": {
+        "id": "Diphenhydramine",
+        "name": "",
+        "reactants": {
+            "Diethylamine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Oil": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "TableSalt": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Carbon": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Ethanol": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Diphenhydramine": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 377.59,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Siderlac": {
+        "id": "Siderlac",
+        "name": "",
+        "reactants": {
+            "Aloe": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Stellibinin": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Siderlac": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "WaterBreakdown": {
+        "id": "WaterBreakdown",
+        "name": "",
+        "reactants": {
+            "Water": {
+                "amount": 3,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Hydrogen": 2,
+            "Oxygen": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "электролиз",
+                "id": "Electrolysis"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "ScrewdriverCocktail": {
+        "id": "ScrewdriverCocktail",
+        "name": "",
+        "reactants": {
+            "JuiceOrange": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Vodka": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "ScrewdriverCocktail": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CopperBloodBreakdown": {
+        "id": "CopperBloodBreakdown",
+        "name": "",
+        "reactants": {
+            "CopperBlood": {
+                "amount": 20,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Water": 11,
+            "Copper": 0.5,
+            "Sugar": 2,
+            "CarbonDioxide": 3,
+            "Protein": 4
+        },
+        "mixingCategories": [
+            {
+                "name": "центрифугирование",
+                "id": "Centrifuge"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Dermaline": {
+        "id": "Dermaline",
+        "name": "",
+        "reactants": {
+            "Kelotane": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Oxygen": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Phosphorus": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Dermaline": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Curdling": {
+        "id": "Curdling",
+        "name": "",
+        "reactants": {
+            "Milk": {
+                "amount": 40,
+                "catalyst": false
+            },
+            "Enzyme": {
+                "amount": 5,
+                "catalyst": true
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "CreateEntityReactionEffect",
+                "description": "Создаёт головка сыра."
+            }
+        ]
+    },
+    "Gunpowder": {
+        "id": "Gunpowder",
+        "name": "",
+        "reactants": {
+            "Potassium": {
+                "amount": 6,
+                "catalyst": false
+            },
+            "Sulfur": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Charcoal": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 374,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "CreateEntityReactionEffect",
+                "description": "Создаёт чёрный порох."
+            }
+        ]
+    },
+    "SuiDream": {
+        "id": "SuiDream",
+        "name": "",
+        "reactants": {
+            "SpaceUp": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "BlueCuracao": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "MelonLiquor": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "SuiDream": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "AmbuzolPlus": {
+        "id": "AmbuzolPlus",
+        "name": "",
+        "reactants": {
+            "Ambuzol": {
+                "amount": 5,
+                "catalyst": false
+            },
+            "Omnizine": {
+                "amount": 5,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "AmbuzolPlus": 10
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Phalanximine": {
+        "id": "Phalanximine",
+        "name": "",
+        "reactants": {
+            "Hyronalin": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Ethanol": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "UnstableMutagen": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Phalanximine": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "IcedGreenTea": {
+        "id": "IcedGreenTea",
+        "name": "",
+        "reactants": {
+            "GreenTea": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Ice": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "IcedGreenTea": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "NitrousOxideBreakdown": {
+        "id": "NitrousOxideBreakdown",
+        "name": "",
+        "reactants": {
+            "NitrousOxide": {
+                "amount": 3,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Nitrogen": 2,
+            "Oxygen": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "электролиз",
+                "id": "Electrolysis"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Impedrezene": {
+        "id": "Impedrezene",
+        "name": "",
+        "reactants": {
+            "Mercury": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Oxygen": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Impedrezene": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 370,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "FiberBreakdown": {
+        "id": "FiberBreakdown",
+        "name": "",
+        "reactants": {
+            "Fiber": {
+                "amount": 5,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 10,
+                "catalyst": true
+            }
+        },
+        "products": {
+            "Carbon": 3,
+            "Sugar": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "центрифугирование",
+                "id": "Centrifuge"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CreateMeatball": {
+        "id": "CreateMeatball",
+        "name": "",
+        "reactants": {
+            "UncookedAnimalProteins": {
+                "amount": 5,
+                "catalyst": false
+            },
+            "Flour": {
+                "amount": 5,
+                "catalyst": false
+            },
+            "Egg": {
+                "amount": 6,
+                "catalyst": false
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "CreateEntityReactionEffect",
+                "description": "Создаёт фрикаделька."
+            }
+        ]
+    },
+    "BananaBreakdown": {
+        "id": "BananaBreakdown",
+        "name": "",
+        "reactants": {
+            "JuiceBanana": {
+                "amount": 10,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Sugar": 5,
+            "Potassium": 5
+        },
+        "mixingCategories": [
+            {
+                "name": "центрифугирование",
+                "id": "Centrifuge"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "PlantBGone": {
+        "id": "PlantBGone",
+        "name": "",
+        "reactants": {
+            "Toxin": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 4,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "PlantBGone": 5
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Hyronalin": {
+        "id": "Hyronalin",
+        "name": "",
+        "reactants": {
+            "Radium": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Dylovene": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Hyronalin": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "NutrimentBreakdown": {
+        "id": "NutrimentBreakdown",
+        "name": "",
+        "reactants": {
+            "Nutriment": {
+                "amount": 5,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Water": 2,
+            "Carbon": 2,
+            "Sugar": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "центрифугирование",
+                "id": "Centrifuge"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CoconutRum": {
+        "id": "CoconutRum",
+        "name": "",
+        "reactants": {
+            "Rum": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "CoconutWater": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "CoconutRum": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Painkiller": {
+        "id": "Painkiller",
+        "name": "",
+        "reactants": {
+            "JuicePineapple": {
+                "amount": 3,
+                "catalyst": false
+            },
+            "CoconutRum": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceOrange": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "CreamOfCoconut": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Painkiller": 6
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Desoxyephedrine": {
+        "id": "Desoxyephedrine",
+        "name": "",
+        "reactants": {
+            "Ephedrine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Carbon": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Iodine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Phosphorus": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Desoxyephedrine": 4
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 370,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Ethylredoxrazine": {
+        "id": "Ethylredoxrazine",
+        "name": "",
+        "reactants": {
+            "Oxygen": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Dylovene": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Carbon": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Ethylredoxrazine": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "BraveBull": {
+        "id": "BraveBull",
+        "name": "",
+        "reactants": {
+            "CoffeeLiqueur": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Tequila": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "BraveBull": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "GinFizz": {
+        "id": "GinFizz",
+        "name": "",
+        "reactants": {
+            "Gin": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceLime": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "SodaWater": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "GinFizz": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "IrishCream": {
+        "id": "IrishCream",
+        "name": "",
+        "reactants": {
+            "Cream": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Whiskey": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "IrishCream": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "PlasticSheet": {
+        "id": "PlasticSheet",
+        "name": "",
+        "reactants": {
+            "Oil": {
+                "amount": 5,
+                "catalyst": false
+            },
+            "Ash": {
+                "amount": 3,
+                "catalyst": false
+            },
+            "SulfuricAcid": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 374,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "CreateEntityReactionEffect",
+                "description": "Создаёт пластик."
+            }
+        ]
+    },
+    "Antifreeze": {
+        "id": "Antifreeze",
+        "name": "",
+        "reactants": {
+            "Cream": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Ice": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Vodka": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Antifreeze": 4
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Foam": {
+        "id": "Foam",
+        "name": "",
+        "reactants": {
+            "Fluorosurfactant": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "AreaReactionEffect",
+                "description": "вызывают неизвестный эффект, так как никто ещё не написал об этом эффекте."
+            }
+        ]
+    },
+    "VodkaTonic": {
+        "id": "VodkaTonic",
+        "name": "",
+        "reactants": {
+            "Vodka": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "TonicWater": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "VodkaTonic": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Dexalin": {
+        "id": "Dexalin",
+        "name": "",
+        "reactants": {
+            "Oxygen": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Plasma": {
+                "amount": 1,
+                "catalyst": true
+            }
+        },
+        "products": {
+            "Dexalin": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Ipecac": {
+        "id": "Ipecac",
+        "name": "",
+        "reactants": {
+            "Potassium": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Nitrogen": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Ammonia": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Ipecac": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Andalusia": {
+        "id": "Andalusia",
+        "name": "",
+        "reactants": {
+            "Rum": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Whiskey": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceLemon": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Andalusia": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "SapBloodBreakdown": {
+        "id": "SapBloodBreakdown",
+        "name": "",
+        "reactants": {
+            "Sap": {
+                "amount": 10,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Water": 9,
+            "Sugar": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "центрифугирование",
+                "id": "Centrifuge"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CookingMayoVinegar": {
+        "id": "CookingMayoVinegar",
+        "name": "",
+        "reactants": {
+            "Vinegar": {
+                "amount": 5,
+                "catalyst": false
+            },
+            "Oil": {
+                "amount": 5,
+                "catalyst": false
+            },
+            "Egg": {
+                "amount": 6,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Mayo": 15
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "WhiskeyCola": {
+        "id": "WhiskeyCola",
+        "name": "",
+        "reactants": {
+            "Cola": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Whiskey": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "WhiskeyCola": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "BloodyMary": {
+        "id": "BloodyMary",
+        "name": "",
+        "reactants": {
+            "JuiceLime": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceTomato": {
+                "amount": 3,
+                "catalyst": false
+            },
+            "Vodka": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "BloodyMary": 6
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "ChloralHydrate": {
+        "id": "ChloralHydrate",
+        "name": "",
+        "reactants": {
+            "Chlorine": {
+                "amount": 3,
+                "catalyst": false
+            },
+            "Ethanol": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "ChloralHydrate": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Aloxadone": {
+        "id": "Aloxadone",
+        "name": "",
+        "reactants": {
+            "Cryoxadone": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Aloe": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Sigynate": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Aloxadone": 4
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CogChamp": {
+        "id": "CogChamp",
+        "name": "",
+        "reactants": {
+            "Cognac": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "ScrewdriverCocktail": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "WeldingFuel": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "CogChamp": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "SyndicateBomb": {
+        "id": "SyndicateBomb",
+        "name": "",
+        "reactants": {
+            "Beer": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "WhiskeyCola": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "SyndicateBomb": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "EZNutrient": {
+        "id": "EZNutrient",
+        "name": "",
+        "reactants": {
+            "Nitrogen": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Phosphorus": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Potassium": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "EZNutrient": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Bleach": {
+        "id": "Bleach",
+        "name": "",
+        "reactants": {
+            "TableSalt": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "SpaceCleaner": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "SodiumHydroxide": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Bleach": 5
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CreateTofu": {
+        "id": "CreateTofu",
+        "name": "",
+        "reactants": {
+            "MilkSoy": {
+                "amount": 30,
+                "catalyst": false
+            },
+            "Enzyme": {
+                "amount": 5,
+                "catalyst": true
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "CreateEntityReactionEffect",
+                "description": "Создаёт тофу."
+            }
+        ]
+    },
+    "MoscowMule": {
+        "id": "MoscowMule",
+        "name": "",
+        "reactants": {
+            "Yorsh": {
+                "amount": 5,
+                "catalyst": false
+            },
+            "JuiceLime": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "MoscowMule": 6
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "ProteinCooking": {
+        "id": "ProteinCooking",
+        "name": "",
+        "reactants": {
+            "UncookedAnimalProteins": {
+                "amount": 0.5,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Protein": 0.5
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 347,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CookingKetchunaise": {
+        "id": "CookingKetchunaise",
+        "name": "",
+        "reactants": {
+            "Ketchup": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Mayo": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Ketchunaise": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "SoyLatte": {
+        "id": "SoyLatte",
+        "name": "",
+        "reactants": {
+            "Coffee": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "MilkSoy": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "SoyLatte": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "TableSalt": {
+        "id": "TableSalt",
+        "name": "",
+        "reactants": {
+            "Chlorine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sodium": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "TableSalt": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 370,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "SulfuricAcid": {
+        "id": "SulfuricAcid",
+        "name": "",
+        "reactants": {
+            "Hydrogen": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sulfur": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Oxygen": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "SulfuricAcid": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "VodkaMartini": {
+        "id": "VodkaMartini",
+        "name": "",
+        "reactants": {
+            "Vermouth": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Vodka": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "VodkaMartini": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "PotassiumExplosion": {
+        "id": "PotassiumExplosion",
+        "name": "",
+        "reactants": {
+            "Water": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Potassium": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "ExplosionReactionEffect",
+                "description": "Вызывает взрыв."
+            }
+        ]
+    },
+    "ChevreCurdling": {
+        "id": "ChevreCurdling",
+        "name": "",
+        "reactants": {
+            "MilkGoat": {
+                "amount": 10,
+                "catalyst": false
+            },
+            "Enzyme": {
+                "amount": 5,
+                "catalyst": true
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "CreateEntityReactionEffect",
+                "description": "Создаёт брусок козьего сыра."
+            }
+        ]
+    },
+    "Paloma": {
+        "id": "Paloma",
+        "name": "",
+        "reactants": {
+            "Tequila": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Grenadine": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Paloma": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Happiness": {
+        "id": "Happiness",
+        "name": "",
+        "reactants": {
+            "Laughter": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Epinephrine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Ethanol": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Plasma": {
+                "amount": 5,
+                "catalyst": true
+            }
+        },
+        "products": {
+            "Happiness": 4
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "LemonLime": {
+        "id": "LemonLime",
+        "name": "",
+        "reactants": {
+            "JuiceLemon": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceLime": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "SodaWater": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "LemonLime": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CreateSoapHomemade": {
+        "id": "CreateSoapHomemade",
+        "name": "",
+        "reactants": {
+            "Fat": {
+                "amount": 15,
+                "catalyst": false
+            },
+            "TableSalt": {
+                "amount": 10,
+                "catalyst": false
+            },
+            "Blood": {
+                "amount": 10,
+                "catalyst": false
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "CreateEntityReactionEffect",
+                "description": "Создаёт мыло."
+            }
+        ]
+    },
+    "Yorsh": {
+        "id": "Yorsh",
+        "name": "",
+        "reactants": {
+            "Beer": {
+                "amount": 4,
+                "catalyst": false
+            },
+            "Vodka": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Yorsh": 5
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "MuteToxin": {
+        "id": "MuteToxin",
+        "name": "",
+        "reactants": {
+            "Uranium": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Vestine": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "SpaceGlue": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "MuteToxin": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 370,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CookingMustard": {
+        "id": "CookingMustard",
+        "name": "",
+        "reactants": {
+            "Bleach": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Ammonia": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Mustard": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "DarkAndStormy": {
+        "id": "DarkAndStormy",
+        "name": "",
+        "reactants": {
+            "Rum": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Ale": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "DarkAndStormy": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "HeartbreakerToxin": {
+        "id": "HeartbreakerToxin",
+        "name": "",
+        "reactants": {
+            "DexalinPlus": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "MindbreakerToxin": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "HeartbreakerToxin": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "UncookedAnimalProteinBreakdown": {
+        "id": "UncookedAnimalProteinBreakdown",
+        "name": "",
+        "reactants": {
+            "UncookedAnimalProteins": {
+                "amount": 10,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Carbon": 2,
+            "Hydrogen": 4,
+            "Phosphorus": 3,
+            "Oxygen": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "электролиз",
+                "id": "Electrolysis"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "IcedTea": {
+        "id": "IcedTea",
+        "name": "",
+        "reactants": {
+            "Ice": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Tea": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "IcedTea": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "BicarLacerinol": {
+        "id": "BicarLacerinol",
+        "name": "",
+        "reactants": {
+            "Lacerinol": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Bicaridine": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Razorium": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Lipolicide": {
+        "id": "Lipolicide",
+        "name": "",
+        "reactants": {
+            "Ephedrine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Diethylamine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Mercury": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Lipolicide": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Silencer": {
+        "id": "Silencer",
+        "name": "",
+        "reactants": {
+            "Nothing": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Cream": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Silencer": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Booger": {
+        "id": "Booger",
+        "name": "",
+        "reactants": {
+            "Cream": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "JuiceBanana": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceWatermelon": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Rum": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Booger": 5
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Lexorin": {
+        "id": "Lexorin",
+        "name": "",
+        "reactants": {
+            "HeartbreakerToxin": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Plasma": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Vestine": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Lexorin": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "DriestMartini": {
+        "id": "DriestMartini",
+        "name": "",
+        "reactants": {
+            "Gin": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Nothing": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "DriestMartini": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "WatertoHolyWater": {
+        "id": "WatertoHolyWater",
+        "name": "",
+        "reactants": {
+            "Water": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Holywater": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "благословение",
+                "id": "Holy"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "ZombieBloodBreakdown": {
+        "id": "ZombieBloodBreakdown",
+        "name": "",
+        "reactants": {
+            "ZombieBlood": {
+                "amount": 4,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Mold": 2,
+            "Protein": 1,
+            "Toxin": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "центрифугирование",
+                "id": "Centrifuge"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CreamOfCoconut": {
+        "id": "CreamOfCoconut",
+        "name": "",
+        "reactants": {
+            "CoconutWater": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Milk": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "CreamOfCoconut": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "SpaceLube": {
+        "id": "SpaceLube",
+        "name": "",
+        "reactants": {
+            "Water": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Fersilicite": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Oxygen": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "SpaceLube": 5
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "SpaceGlue": {
+        "id": "SpaceGlue",
+        "name": "",
+        "reactants": {
+            "SpaceLube": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Slime": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "SpaceGlue": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 370,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Manhattan": {
+        "id": "Manhattan",
+        "name": "",
+        "reactants": {
+            "Whiskey": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Vermouth": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Manhattan": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Licoxide": {
+        "id": "Licoxide",
+        "name": "",
+        "reactants": {
+            "Lead": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Zinc": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Licoxide": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Margarita": {
+        "id": "Margarita",
+        "name": "",
+        "reactants": {
+            "Tequila": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "JuiceLime": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Margarita": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "AcidSpit": {
+        "id": "AcidSpit",
+        "name": "",
+        "reactants": {
+            "Wine": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "SulfuricAcid": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "AcidSpit": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Bramble": {
+        "id": "Bramble",
+        "name": "",
+        "reactants": {
+            "JuiceBerry": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceLime": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Gin": {
+                "amount": 3,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Bramble": 6
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "WhiteGilgamesh": {
+        "id": "WhiteGilgamesh",
+        "name": "",
+        "reactants": {
+            "Beer": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Milk": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "WhiteGilgamesh": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Ambuzol": {
+        "id": "Ambuzol",
+        "name": "",
+        "reactants": {
+            "Dylovene": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Ammonia": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "ZombieBlood": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Ambuzol": 4
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "TheMartinez": {
+        "id": "TheMartinez",
+        "name": "",
+        "reactants": {
+            "Cola": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Vodka": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Ice": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceLemon": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "TheMartinez": 6
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "BadTouch": {
+        "id": "BadTouch",
+        "name": "",
+        "reactants": {
+            "Vodka": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "LemonLime": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "SpaceUp": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "BlueCuracao": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Absinthe": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "BadTouch": 6
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Sbiten": {
+        "id": "Sbiten",
+        "name": "",
+        "reactants": {
+            "Vodka": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "CapsaicinOil": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Sbiten": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Dylovene": {
+        "id": "Dylovene",
+        "name": "",
+        "reactants": {
+            "Silicon": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Nitrogen": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Potassium": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Dylovene": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "ProteinBreakdown": {
+        "id": "ProteinBreakdown",
+        "name": "",
+        "reactants": {
+            "Protein": {
+                "amount": 10,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Carbon": 2,
+            "Hydrogen": 4,
+            "Phosphorus": 3,
+            "Oxygen": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "электролиз",
+                "id": "Electrolysis"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CreateCornmealDough": {
+        "id": "CreateCornmealDough",
+        "name": "",
+        "reactants": {
+            "Cornmeal": {
+                "amount": 15,
+                "catalyst": false
+            },
+            "Milk": {
+                "amount": 10,
+                "catalyst": false
+            },
+            "Egg": {
+                "amount": 6,
+                "catalyst": false
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "CreateEntityReactionEffect",
+                "description": "Создаёт кукурузное тесто."
+            }
+        ]
+    },
+    "DoctorsDelight": {
+        "id": "DoctorsDelight",
+        "name": "",
+        "reactants": {
+            "Cream": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "JuiceLime": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceOrange": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceTomato": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Tricordrazine": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "DoctorsDelight": 6
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Boyarsky": {
+        "id": "Boyarsky",
+        "name": "",
+        "reactants": {
+            "Vodka": {
+                "amount": 3,
+                "catalyst": false
+            },
+            "Grenadine": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Hotsauce": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Boyarsky": 6
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "SpaceCleaner": {
+        "id": "SpaceCleaner",
+        "name": "",
+        "reactants": {
+            "Ammonia": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "SpaceCleaner": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Laughter": {
+        "id": "Laughter",
+        "name": "",
+        "reactants": {
+            "JuiceBanana": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Laughter": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CreateChocolate": {
+        "id": "CreateChocolate",
+        "name": "",
+        "reactants": {
+            "CocoaPowder": {
+                "amount": 4,
+                "catalyst": false
+            },
+            "Milk": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "CreateEntityReactionEffect",
+                "description": "Создаёт плитка шоколада."
+            }
+        ]
+    },
+    "OldFashioned": {
+        "id": "OldFashioned",
+        "name": "",
+        "reactants": {
+            "Whiskey": {
+                "amount": 7,
+                "catalyst": false
+            },
+            "Campari": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "OldFashioned": 10
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CookingHotsauce": {
+        "id": "CookingHotsauce",
+        "name": "",
+        "reactants": {
+            "JuiceTomato": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "TableSalt": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "CapsaicinOil": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Hotsauce": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "IronMetalFoam": {
+        "id": "IronMetalFoam",
+        "name": "",
+        "reactants": {
+            "Iron": {
+                "amount": 3,
+                "catalyst": false
+            },
+            "FoamingAgent": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "FluorosulfuricAcid": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "AreaReactionEffect",
+                "description": "вызывают неизвестный эффект, так как никто ещё не написал об этом эффекте."
+            }
+        ]
+    },
+    "CookingBbqSauce": {
+        "id": "CookingBbqSauce",
+        "name": "",
+        "reactants": {
+            "Ketchup": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Vinegar": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "BbqSauce": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Ash": {
+        "id": "Ash",
+        "name": "",
+        "reactants": {
+            "Oil": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Ash": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 520,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "SodiumPolyacrylate": {
+        "id": "SodiumPolyacrylate",
+        "name": "",
+        "reactants": {
+            "Oxygen": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Sodium": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Nitrogen": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "SodiumPolyacrylate": 4
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Hooch": {
+        "id": "Hooch",
+        "name": "",
+        "reactants": {
+            "Ethanol": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "WeldingFuel": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Enzyme": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Hooch": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "BloodToWine": {
+        "id": "BloodToWine",
+        "name": "",
+        "reactants": {
+            "Blood": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Wine": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "благословение",
+                "id": "Holy"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "AlliesCocktail": {
+        "id": "AlliesCocktail",
+        "name": "",
+        "reactants": {
+            "Martini": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Vodka": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "AlliesCocktail": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Oculine": {
+        "id": "Oculine",
+        "name": "",
+        "reactants": {
+            "TableSalt": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Blood": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Hydroxide": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Oculine": 4
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "BlackRussian": {
+        "id": "BlackRussian",
+        "name": "",
+        "reactants": {
+            "CoffeeLiqueur": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Vodka": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "BlackRussian": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Cosmopolitan": {
+        "id": "Cosmopolitan",
+        "name": "",
+        "reactants": {
+            "Vodka": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceBerry": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceLime": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Cosmopolitan": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Bicaridine": {
+        "id": "Bicaridine",
+        "name": "",
+        "reactants": {
+            "Inaprovaline": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Carbon": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Bicaridine": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Mojito": {
+        "id": "Mojito",
+        "name": "",
+        "reactants": {
+            "JuiceLime": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Rum": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "SodaWater": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Mojito": 4
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CreateCakeBatter": {
+        "id": "CreateCakeBatter",
+        "name": "",
+        "reactants": {
+            "Flour": {
+                "amount": 15,
+                "catalyst": false
+            },
+            "Egg": {
+                "amount": 12,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 5,
+                "catalyst": false
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "CreateEntityReactionEffect",
+                "description": "Создаёт тесто для торта."
+            }
+        ]
+    },
+    "Cognizine": {
+        "id": "Cognizine",
+        "name": "",
+        "reactants": {
+            "CarpoToxin": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Siderlac": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Acetone": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Cognizine": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Phenol": {
+        "id": "Phenol",
+        "name": "",
+        "reactants": {
+            "Hydroxide": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Benzene": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Phenol": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Mead": {
+        "id": "Mead",
+        "name": "",
+        "reactants": {
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Enzyme": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Mead": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "UnstableMutagen": {
+        "id": "UnstableMutagen",
+        "name": "",
+        "reactants": {
+            "Radium": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Phosphorus": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Chlorine": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "UnstableMutagen": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "AllicinBreakdown": {
+        "id": "AllicinBreakdown",
+        "name": "",
+        "reactants": {
+            "Allicin": {
+                "amount": 4,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Sulfur": 2,
+            "Carbon": 1,
+            "Water": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "центрифугирование",
+                "id": "Centrifuge"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "AtomicBomb": {
+        "id": "AtomicBomb",
+        "name": "",
+        "reactants": {
+            "B52": {
+                "amount": 10,
+                "catalyst": false
+            },
+            "Uranium": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "AtomicBomb": 11
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Fresium": {
+        "id": "Fresium",
+        "name": "",
+        "reactants": {
+            "Frezon": {
+                "amount": 3,
+                "catalyst": false
+            },
+            "Plasma": {
+                "amount": 1,
+                "catalyst": true
+            },
+            "Nitrogen": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Cryoxadone": {
+                "amount": 0.22,
+                "catalyst": false
+            },
+            "TableSalt": {
+                "amount": 0.08,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 1.5,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Fresium": 5
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": 300,
+        "hasMax": true,
+        "effects": [
+            {
+                "id": "CreateGas",
+                "description": "Создаёт 3 моль газа gases-nitrogen."
+            }
+        ]
+    },
+    "Arithrazine": {
+        "id": "Arithrazine",
+        "name": "",
+        "reactants": {
+            "Hyronalin": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Hydrogen": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Arithrazine": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Rewriter": {
+        "id": "Rewriter",
+        "name": "",
+        "reactants": {
+            "Coffee": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "SpaceMountainWind": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Rewriter": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "RobustHarvest": {
+        "id": "RobustHarvest",
+        "name": "",
+        "reactants": {
+            "EZNutrient": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "SulfuricAcid": {
+                "amount": 1,
+                "catalyst": true
+            }
+        },
+        "products": {
+            "RobustHarvest": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "ManhattanProject": {
+        "id": "ManhattanProject",
+        "name": "",
+        "reactants": {
+            "Whiskey": {
+                "amount": 10,
+                "catalyst": false
+            },
+            "Uranium": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "ManhattanProject": 10
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Synaptizine": {
+        "id": "Synaptizine",
+        "name": "",
+        "reactants": {
+            "Lithium": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Synaptizine": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "SodiumCarbonate": {
+        "id": "SodiumCarbonate",
+        "name": "",
+        "reactants": {
+            "Ammonia": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "TableSalt": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Carbon": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Oxygen": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "SodiumCarbonate": 4
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Saline": {
+        "id": "Saline",
+        "name": "",
+        "reactants": {
+            "Water": {
+                "amount": 4,
+                "catalyst": false
+            },
+            "TableSalt": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Saline": 5
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "HippiesDelight": {
+        "id": "HippiesDelight",
+        "name": "",
+        "reactants": {
+            "GargleBlaster": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "THC": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "HippiesDelight": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "PolytrinicAcid": {
+        "id": "PolytrinicAcid",
+        "name": "",
+        "reactants": {
+            "SulfuricAcid": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Plasma": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Potassium": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "PolytrinicAcid": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Diphenylmethylamine": {
+        "id": "Diphenylmethylamine",
+        "name": "",
+        "reactants": {
+            "Ethyloxyephedrine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "SodiumCarbonate": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Coffee": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Diphenylmethylamine": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "ManlyDorf": {
+        "id": "ManlyDorf",
+        "name": "",
+        "reactants": {
+            "Ale": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Beer": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "ManlyDorf": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Lipozine": {
+        "id": "Lipozine",
+        "name": "",
+        "reactants": {
+            "TableSalt": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Ethanol": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Radium": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Lipozine": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Mannitol": {
+        "id": "Mannitol",
+        "name": "",
+        "reactants": {
+            "Hydrogen": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Mannitol": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Negroni": {
+        "id": "Negroni",
+        "name": "",
+        "reactants": {
+            "Martini": {
+                "amount": 3,
+                "catalyst": false
+            },
+            "Campari": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Vermouth": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Negroni": 6
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "BruizinePuncturase": {
+        "id": "BruizinePuncturase",
+        "name": "",
+        "reactants": {
+            "Puncturase": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Bruizine": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Razorium": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "RoyRogers": {
+        "id": "RoyRogers",
+        "name": "",
+        "reactants": {
+            "Cola": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Grenadine": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "RoyRogers": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "IcedCoffee": {
+        "id": "IcedCoffee",
+        "name": "",
+        "reactants": {
+            "Coffee": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Ice": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "IcedCoffee": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Gildlager": {
+        "id": "Gildlager",
+        "name": "",
+        "reactants": {
+            "Gold": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Vodka": {
+                "amount": 10,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Gildlager": 10
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "BahamaMama": {
+        "id": "BahamaMama",
+        "name": "",
+        "reactants": {
+            "Ice": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceOrange": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuicePineapple": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Rum": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "CoconutRum": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Grenadine": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "BahamaMama": 6
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "HotCocoa": {
+        "id": "HotCocoa",
+        "name": "",
+        "reactants": {
+            "Water": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "CocoaPowder": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "HotCocoa": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 350,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "DexalinPlus": {
+        "id": "DexalinPlus",
+        "name": "",
+        "reactants": {
+            "Dexalin": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Carbon": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Iron": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "DexalinPlus": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "IcedBeer": {
+        "id": "IcedBeer",
+        "name": "",
+        "reactants": {
+            "Beer": {
+                "amount": 5,
+                "catalyst": false
+            },
+            "Ice": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "IcedBeer": 5
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "IrishCarBomb": {
+        "id": "IrishCarBomb",
+        "name": "",
+        "reactants": {
+            "Ale": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "IrishCream": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "IrishCarBomb": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "B52": {
+        "id": "B52",
+        "name": "",
+        "reactants": {
+            "Cognac": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "IrishCarBomb": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "CoffeeLiqueur": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "B52": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "ErikaSurprise": {
+        "id": "ErikaSurprise",
+        "name": "",
+        "reactants": {
+            "Ale": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Ice": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceBanana": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceLime": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Whiskey": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "ErikaSurprise": 6
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Amasec": {
+        "id": "Amasec",
+        "name": "",
+        "reactants": {
+            "Wine": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Vodka": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "Iron": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Amasec": 5
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "FourteenLoko": {
+        "id": "FourteenLoko",
+        "name": "",
+        "reactants": {
+            "Coffee": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceLime": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Vodka": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "FourteenLoko": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Necrosol": {
+        "id": "Necrosol",
+        "name": "",
+        "reactants": {
+            "Blood": {
+                "amount": 3,
+                "catalyst": false
+            },
+            "Omnizine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Cryoxadone": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Necrosol": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 370,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "NorepinephricAcid": {
+        "id": "NorepinephricAcid",
+        "name": "",
+        "reactants": {
+            "Uranium": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Epinephrine": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "NorepinephricAcid": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "SnowWhite": {
+        "id": "SnowWhite",
+        "name": "",
+        "reactants": {
+            "Beer": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "LemonLime": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "SnowWhite": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "FoamingAgent": {
+        "id": "FoamingAgent",
+        "name": "",
+        "reactants": {
+            "Lithium": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Hydrogen": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "FoamingAgent": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CreatePieDough": {
+        "id": "CreatePieDough",
+        "name": "",
+        "reactants": {
+            "Flour": {
+                "amount": 15,
+                "catalyst": false
+            },
+            "Egg": {
+                "amount": 12,
+                "catalyst": false
+            },
+            "TableSalt": {
+                "amount": 5,
+                "catalyst": false
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "CreateEntityReactionEffect",
+                "description": "Создаёт тесто для пирога."
+            }
+        ]
+    },
+    "Sigynate": {
+        "id": "Sigynate",
+        "name": "",
+        "reactants": {
+            "SodiumCarbonate": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "SodiumHydroxide": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Kelotane": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Sigynate": 4
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 370,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Fersilicite": {
+        "id": "Fersilicite",
+        "name": "",
+        "reactants": {
+            "Iron": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Silicon": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Fersilicite": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 310,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "IcedBeerAlt": {
+        "id": "IcedBeerAlt",
+        "name": "",
+        "reactants": {
+            "Beer": {
+                "amount": 10,
+                "catalyst": false
+            },
+            "Frostoil": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "IcedBeer": 10
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Patron": {
+        "id": "Patron",
+        "name": "",
+        "reactants": {
+            "Tequila": {
+                "amount": 10,
+                "catalyst": false
+            },
+            "Silver": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Patron": 10
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "BloodBreakdown": {
+        "id": "BloodBreakdown",
+        "name": "",
+        "reactants": {
+            "Blood": {
+                "amount": 20,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Water": 11,
+            "Iron": 0.5,
+            "Sugar": 2,
+            "CarbonDioxide": 3,
+            "Protein": 4
+        },
+        "mixingCategories": [
+            {
+                "name": "центрифугирование",
+                "id": "Centrifuge"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "LongIslandIcedTea": {
+        "id": "LongIslandIcedTea",
+        "name": "",
+        "reactants": {
+            "CubaLibre": {
+                "amount": 3,
+                "catalyst": false
+            },
+            "Gin": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Tequila": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Vodka": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "LongIslandIcedTea": 6
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "BuzzochloricBees": {
+        "id": "BuzzochloricBees",
+        "name": "",
+        "reactants": {
+            "Saxoite": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Fiber": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "GroundBee": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Chlorine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "UnstableMutagen": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "BuzzochloricBees": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CreateCrystals": {
+        "id": "CreateCrystals",
+        "name": "",
+        "reactants": {
+            "Sugar": {
+                "amount": 15,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 15,
+                "catalyst": false
+            },
+            "Ethanol": {
+                "amount": 5,
+                "catalyst": false
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 374,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "CreateEntityReactionEffect",
+                "description": "Создаёт случайный осколок кристалла."
+            }
+        ]
+    },
+    "MindbreakerToxin": {
+        "id": "MindbreakerToxin",
+        "name": "",
+        "reactants": {
+            "Silicon": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Hydrogen": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Dylovene": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "MindbreakerToxin": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 370,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Epinephrine": {
+        "id": "Epinephrine",
+        "name": "",
+        "reactants": {
+            "Phenol": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Acetone": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Chlorine": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Hydroxide": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Epinephrine": 4
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "ThreeMileIsland": {
+        "id": "ThreeMileIsland",
+        "name": "",
+        "reactants": {
+            "LongIslandIcedTea": {
+                "amount": 10,
+                "catalyst": false
+            },
+            "Uranium": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "ThreeMileIsland": 10
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "EggCooking": {
+        "id": "EggCooking",
+        "name": "",
+        "reactants": {
+            "Egg": {
+                "amount": 0.5,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "EggCooked": 0.5
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 344,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Phlogiston": {
+        "id": "Phlogiston",
+        "name": "",
+        "reactants": {
+            "Phosphorus": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "SulfuricAcid": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Plasma": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Phlogiston": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "CreateGas",
+                "description": "Создаёт 3 моль газа gases-plasma."
+            },
+            {
+                "id": "PopupMessage",
+                "description": ""
+            }
+        ]
+    },
+    "GargleBlaster": {
+        "id": "GargleBlaster",
+        "name": "",
+        "reactants": {
+            "Cognac": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Gin": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceLime": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Vodka": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Whiskey": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "GargleBlaster": 5
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CreateButter": {
+        "id": "CreateButter",
+        "name": "",
+        "reactants": {
+            "Milk": {
+                "amount": 30,
+                "catalyst": false
+            },
+            "TableSalt": {
+                "amount": 5,
+                "catalyst": true
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "CreateEntityReactionEffect",
+                "description": "Создаёт брусок сливочного масла."
+            }
+        ]
+    },
+    "SodiumHydroxide": {
+        "id": "SodiumHydroxide",
+        "name": "",
+        "reactants": {
+            "Hydroxide": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sodium": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "SodiumHydroxide": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "BruizineLacerinol": {
+        "id": "BruizineLacerinol",
+        "name": "",
+        "reactants": {
+            "Lacerinol": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Bruizine": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Razorium": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "BicarPuncturase": {
+        "id": "BicarPuncturase",
+        "name": "",
+        "reactants": {
+            "Puncturase": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Bicaridine": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Razorium": 1
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "UraniumEmpExplosion": {
+        "id": "UraniumEmpExplosion",
+        "name": "",
+        "reactants": {
+            "Iron": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Uranium": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Aluminium": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "EmpReactionEffect",
+                "description": "Вызывает электромагнитный импульс."
+            }
+        ]
+    },
+    "FlashFreezeIce": {
+        "id": "FlashFreezeIce",
+        "name": "",
+        "reactants": {
+            "Fresium": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Ice": 5
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "CreateGas",
+                "description": "Создаёт 3 моль газа gases-frezon."
+            }
+        ]
+    },
+    "SpaceDrugs": {
+        "id": "SpaceDrugs",
+        "name": "",
+        "reactants": {
+            "Mercury": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Sugar": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "Lithium": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "SpaceDrugs": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "Starkist": {
+        "id": "Starkist",
+        "name": "",
+        "reactants": {
+            "Cola": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "JuiceOrange": {
+                "amount": 2,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Starkist": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CookingSoysauce": {
+        "id": "CookingSoysauce",
+        "name": "",
+        "reactants": {
+            "MilkSoy": {
+                "amount": 2,
+                "catalyst": false
+            },
+            "SulfuricAcid": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "Soysauce": 3
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "CreateSoap": {
+        "id": "CreateSoap",
+        "name": "",
+        "reactants": {
+            "Fat": {
+                "amount": 15,
+                "catalyst": false
+            },
+            "TableSalt": {
+                "amount": 10,
+                "catalyst": false
+            },
+            "Water": {
+                "amount": 10,
+                "catalyst": false
+            }
+        },
+        "products": {},
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": [
+            {
+                "id": "CreateEntityReactionEffect",
+                "description": "Создаёт мыло."
+            }
+        ]
+    },
+    "NuclearCola": {
+        "id": "NuclearCola",
+        "name": "",
+        "reactants": {
+            "Cola": {
+                "amount": 5,
+                "catalyst": false
+            },
+            "Uranium": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "NuclearCola": 5
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    },
+    "IrishCoffee": {
+        "id": "IrishCoffee",
+        "name": "",
+        "reactants": {
+            "Coffee": {
+                "amount": 1,
+                "catalyst": false
+            },
+            "IrishCream": {
+                "amount": 1,
+                "catalyst": false
+            }
+        },
+        "products": {
+            "IrishCoffee": 2
+        },
+        "mixingCategories": [
+            {
+                "name": "смешивание",
+                "id": "DummyMix"
+            }
+        ],
+        "minTemp": 0,
+        "maxTemp": "Infinity",
+        "hasMax": false,
+        "effects": []
+    }
+}
