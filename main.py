@@ -116,7 +116,7 @@ def fill_out_the_recipe(reagents, recipes: Dict, recipe: List[str], reagent: str
             catalyst = suitable_recipe["reactants"][reactant]["catalyst"]
 
             need_amount_str = f"{need_amount:.2f}"
-            need_amount_str = need_amount_str.strip("0").strip(".")
+            need_amount_str = need_amount_str.rstrip("0").rstrip(".")
 
             catalyst_str = ""
             if catalyst:
