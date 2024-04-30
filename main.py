@@ -35,12 +35,13 @@ def get_reagent_name(reagents, reagent_name):
 def get_reagent_id(reagents, reagent_name):
 
     for reagent in reagents.values():
-
-        if (reagent["name"].lower().replace("ё", "е") == reagent_name.lower().replace("ё", "е")
-            or reagent["id"].lower() == reagent_name.lower()
-            or reagent["name"].lower().replace("ё", "е").startswith(reagent_name.lower().replace("ё", "е"))
-            or reagent["id"].lower().startswith(reagent_name.lower())):
+        if reagent["id"].lower() == reagent_name.lower() or reagent["name"].lower().replace("ё", "е") == reagent_name.lower().replace("ё", "е"):
             return reagent["id"]
+
+    for reagent in reagents.values():
+        if reagent["id"].lower().startswith(reagent_name.lower()) or reagent["name"].lower().replace("ё", "е").startswith(reagent_name.lower().replace("ё", "е")):
+            return reagent["id"]
+
     return None
 
 def get_product_amount(recipe, reagent):
