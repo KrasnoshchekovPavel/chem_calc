@@ -46,6 +46,10 @@ def get_reagent_id(reagents, reagent_name):
              if reagent_word.lower().replace("ё", "е").startswith(reagent_name.lower().replace("ё", "е")):
                 return reagent["id"]
 
+    for reagent in reagents.values():
+        if reagent_name in reagent["id"] or reagent_name in reagent["name"]:
+            return reagent["id"]
+
     return None
 
 def get_product_amount(recipe, reagent):
