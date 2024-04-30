@@ -39,8 +39,12 @@ def get_reagent_id(reagents, reagent_name):
             return reagent["id"]
 
     for reagent in reagents.values():
-        if reagent["id"].lower().startswith(reagent_name.lower()) or reagent["name"].lower().replace("ё", "е").startswith(reagent_name.lower().replace("ё", "е")):
-            return reagent["id"]
+        for reagent_word in reagent["id"].split():
+            if reagent_word.lower().startswith(reagent_name.lower()):
+                return reagent["id"]
+        for reagent_word in reagent["name"].split():
+             if reagent_word.lower().replace("ё", "е").startswith(reagent_name.lower().replace("ё", "е")):
+                return reagent["id"]
 
     return None
 
