@@ -22,8 +22,8 @@ dispenser_reagents = ["Aluminium",
                       "Sodium",
                       "Sulfur",
                       "Water"]
-def print_separator():
-    print("#" * 40)
+def print_separator(sep="#"):
+    print(sep * 40)
 
 def get_reagent_name(reagents, reagent_name):
     found_reagent = reagents.get(reagent_name)
@@ -35,7 +35,11 @@ def get_reagent_name(reagents, reagent_name):
 def get_reagent_id(reagents, reagent_name):
 
     for reagent in reagents.values():
-        if reagent["name"].lower().startswith(reagent_name.lower()) or reagent["id"].lower().startswith(reagent_name.lower()):
+
+        if (reagent["name"].lower().replace("ё", "е") == reagent_name.lower().replace("ё", "е")
+            or reagent["id"].lower() == reagent_name.lower()
+            or reagent["name"].lower().replace("ё", "е").startswith(reagent_name.lower().replace("ё", "е"))
+            or reagent["id"].lower().startswith(reagent_name.lower())):
             return reagent["id"]
     return None
 
@@ -49,7 +53,7 @@ def fill_out_the_recipe(reagents, recipes: Dict, recipe: List[str], reagent: str
     if have_recipe is None:
         have_recipe = []
 
-    if reagent in dispenser_reagents:
+    if reagent in dispenser_reagents and deep > 0:
         return
 
     if reagent in have_recipe:
@@ -65,9 +69,11 @@ def fill_out_the_recipe(reagents, recipes: Dict, recipe: List[str], reagent: str
     tab = "\t" * deep
 
     count = 1
+
     for suitable_recipe in suitable_recipes:
 
         if len(suitable_recipes) > 1:
+            recipe.append(tab + "-" * 40)
             recipe.append(tab + f"Вариант {count}:")
 
         result_amount = get_product_amount(suitable_recipe, reagent)
@@ -86,14 +92,14 @@ def fill_out_the_recipe(reagents, recipes: Dict, recipe: List[str], reagent: str
         maxT = suitable_recipe["maxTemp"]
 
         if hasMax and hasMin:
-            temp_str = f"от {minT}K до {maxT}K"
+            temp_str = f" от {minT}K до {maxT}K"
         elif hasMin:
-            temp_str = f"от {minT}K"
+            temp_str = f" от {minT}K"
         elif hasMax:
-            temp_str = f"до {maxT}K"
+            temp_str = f" до {maxT}K"
 
 
-        recipe.append(tab + ", ".join(mix_cats) + ":")
+        recipe.append(tab + ", ".join(mix_cats) + temp_str + ":")
 
         count1 = 1
         for reactant in suitable_recipe["reactants"].keys():
@@ -110,6 +116,7 @@ def fill_out_the_recipe(reagents, recipes: Dict, recipe: List[str], reagent: str
 
             fill_out_the_recipe(reagents, recipes, recipe, reactant, need_amount, have_recipe.copy(), deep)
             count1 += 1
+
         count+=1
 
 
@@ -134,6 +141,8 @@ while True:
 
     while True:
         reagent = input("Вещество: ")
+        if reagent == "":
+            continue
         reagent_id = get_reagent_id(reagents, reagent)
         if reagent_id is not None:
             break
