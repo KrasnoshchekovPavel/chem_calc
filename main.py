@@ -1,4 +1,5 @@
 import json
+import os
 from typing import List, Dict
 
 dispenser_reagents = ["Aluminium",
@@ -140,10 +141,12 @@ def find_recipes(recipes: Dict, reagent: str) -> List[Dict]:
     return found_recipes
 
 
-with open('reactions.txt', encoding="utf-8") as file:
+scripts_dir = os.path.dirname(__file__)
+
+with open(os.path.join(scripts_dir, "reactions.txt"), encoding="utf-8") as file:
     recipes = json.load(file)
 
-with open('reagents.txt', encoding="utf-8") as file:
+with open(os.path.join(scripts_dir, "reagents.txt"), encoding="utf-8") as file:
     reagents = json.load(file)
 
 while True:
