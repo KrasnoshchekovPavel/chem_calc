@@ -153,7 +153,9 @@ while True:
         if reagent == "":
             continue
         reagent_id = get_reagent_id(reagents, reagent)
-        if reagent_id is not None:
+        if reagent_id is None:
+            print("Вещество не найдено")
+        else:
             break
 
     while True:
